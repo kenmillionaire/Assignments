@@ -32,13 +32,16 @@ Readme file
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of item to fetch |
 
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
-
 ## Appendix
 
-Any additional information goes here
+Week 3 task is divided into two sections:
+3a) CSS FUNDAMENTALS - We created our Portfolio Website
+3b) USING HTML AND CSS - We created Registration and Login Pages
+
+Week 4 task was basically about mastering HTML layout; we had two tasks
+on CSS FLEXBOX AND GRID LAYOUT
+
+Week 5 task is creating a personal README file:- KENMILLIONIARE.md
 
 ## Authors
 
@@ -54,36 +57,12 @@ Any additional information goes here
 
 # Hi, I'm Kehinde Oyeronke Osoba! 👋
 
-I am a Microsoft Certified Systems Engineer who recently upgraded my tech skills into UI/UX training and Frontend web development.
-
 ## Features
 
 - Light/dark mode toggle
 - Live previews
 - Fullscreen mode
 - Cross platform
-
-## Feedback
-
-If you have any feedback, please reach out to me at kenuk2022@gmail.com
-
-## FAQ
-
-#### Question 1
-
-Answer 1
-
-#### Question 2
-
-Answer 2
-
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
 
 ## Documentation
 
