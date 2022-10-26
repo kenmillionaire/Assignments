@@ -1,0 +1,128 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;  
+}
+
+body{
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
+
+img {
+  margin-top: 50px;
+  }
+
+h2{
+  font-family: big shoulder display;
+  font-weight:700;
+  font-size: 25px;
+  color: hsl(0, 0%, 95%);
+  margin-top: 20px;
+}
+
+p{
+  font-family: lexend deca;
+  font-weight:400;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.2em;
+  margin-top: 30px
+}
+
+.learn-bttn{
+   background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  width: 120px;
+  margin-top: 50px;
+}
+
+.learn-bttn2{
+     background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  width: 120px;
+    margin-top: 50px;
+}
+
+.learn-bttn3{
+     background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  width: 120px;
+    margin-top: 50px;
+}
+
+.flex-container{
+  display: flex;
+  height: 70vh;
+  width: 60%;
+  justify-content: center;
+  align-content: center;
+  margin:auto; 
+}
+
+.column{
+padding-inline:40px;
+}
+
+
+.learn-bttn4{
+     background-color: blueviolet;
+  color:white;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  width: 120px;
+    margin-top: 80px;
+  text-decoration: none;
+
+@media screen and (max-width: 1440px); and (min-width:1200px){
+  .flex-container{
+  display: flex;
+  height: 70vh;
+  width: 60%;
+  justify-content: center;
+  align-content: center;
+  margin:auto; 
+}
+.learn-bttn learn-bttn2 learn-bttn3{
+  margin-top: 150px;
+
+ 
+
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+
+}
+ 
+ 
+ 
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  .flex-container{
+  flex-direction: column;
+  display: flex;
+  height: 70vh;
+  width: 60%;
+  justify-content: center;
+  align-content: center;
+  margin:auto; 
+}
+
+  
+   
