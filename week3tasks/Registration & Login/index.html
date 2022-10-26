@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <h1>
+    Rock Global Radio Listeners
+  </h1>
+
+  <h2> Sign up for free</h2>
+
+  <div class="form">
+
+    <div>
+      <label for="fname">First Name:</label>
+      <input type="text" placeholder="Enter first name" name="fname" id="fname" required>
+    </div>
+
+    <br />
+
+    <div>
+      <label for="lname">Last Name:</label>
+      <input type="text" placeholder="Enter last name" name="lname" id="lname" required>
+    </div>
+
+    <br />
+
+
+
+    <div>
+      <label for="Email">Email:</label>
+      <input type="email" placeholder="Enter Email" name="email" id="email" required>
+    </div>
+
+    <br />
+
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" placeholder="Enter password" name="password" id="password" required>
+    </div>
+    <br />
+    <div>
+      <label for="pnumber">Phone Number:</label>
+      <input type="number" placeholder="Enter Phone Number" name="pnumber" id="pnumber" required>
+    </div>
+
+    <br />
+
+    <div>
+      <label for="dob">Date of Birth:</label>
+      <input type="date" name="date of birth" id="date of birth" required>
+    </div>
+
+    <br />
+
+    <div>
+      <label for="fcolor">Favourite Color:</label>
+      <input type="color" name="color" id="color" required>
+    </div>
+
+    <br />
+
+    <div>
+      <label for="gender">Gender:</label>
+      <select class="optvalue" name="gender" id="gender">
+        <option value="Choose">Choose </option>
+        <option value="Female">Female </option>
+        <option value="Male">Male </option>
+        <option value="Trans">Trans </option>
+        <option value="NonC">Non-Conforming </option>
+    </div>
+    <br />
+    <br />
+    <input>
+    <!--Hello Boss, this input tag is clashing with what I don't know, if i remove it the reset and submit button will disappear -->
+    <br />
+    <br />
+    <br />
+    <div class="container">
+      <button>Reset </button>
+      <button onclick="document.location='success.html'">Submit </button>
+    </div>
+    <hr />
+
+    <br />
+    <footer>Already have an account? <a href="login.html">Sign in</a></footer>
+
+
+</body>
+
+</html>
